@@ -1,0 +1,74 @@
+.Cabecalho {
+    background-color: #474b52;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+    }
+    .NovaTarefa {
+    margin: 10px;
+    }
+    .ListaTarefas {
+    background-color: rgb(47, 185, 183);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    }
+    .Tarefa {
+    background-color: blanchedalmond;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+    }
+    button {
+        background-color: #4CAF50; 
+        border: none; 
+        color: white; 
+        padding: 10px 20px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px;
+        margin: 4px 2px; 
+        cursor: pointer;
+        border-radius: 12px; 
+        transition: background-color 0.3s ease; 
+      }
+      
+      button:hover {
+        background-color: #45a049; 
+      }
+      
+      button:active {
+        background-color: #3e8e41; 
+      }
+      input[type="text"] {
+        padding: 10px; 
+        margin: 8px 0; 
+        box-sizing: border-box; 
+        border: 2px solid #ccc; 
+        border-radius: 8px; 
+        font-size: 16px; 
+        outline: none; 
+        transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+      }
+      
+      input[type="text"]:focus {
+        border-color: #4CAF50; 
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+      }
+
+      .Footer {
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 5px 0; 
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        font-size: 16px; 
+        color: #555;
+        border-top: 1px solid #ddd;
+      }
